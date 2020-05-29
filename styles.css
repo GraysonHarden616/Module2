@@ -1,0 +1,65 @@
+body{
+	background-color: #f4f4f4;
+
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.container1{
+	display: flex;
+}
+
+
+.navbar ul{
+	padding: 0;
+	list-style: none;
+	border-width: 1.6em;
+
+}
+
+.navbar li{
+	display: inline;
+	border: 1px solid black;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: black;
+	box-sizing: border-box;
+}
+
+.navbar a:hover {
+	background-color: lightblue;
+}
+
+.list{
+	text-align: left;
+	margin-left: 20px;
+	float: left;
+	border: 1px solid black;
+}
+
+.box-3 tr:nth-of-type(even){
+	background-color: lightgrey;
+}
+
+.box-3 table{
+	border: 10px;
+}
+
+.list{
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.box-3 table{
+	border: 1px solid black;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 900px){
+
+.navbar{
+	flex-direction: column;
+}
+}
